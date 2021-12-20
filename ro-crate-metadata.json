@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-06T14:50:19.556018",
+            "datePublished": "2021-12-20T17:04:47.617205",
             "hasPart": [
                 {
                     "@id": "gromacs-mmgbsa.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/gromacs-mmgbsa",
-            "version": "0.1.1"
+            "version": "0.1.2"
         },
         {
             "@id": "#galaxy",
@@ -115,7 +115,7 @@
             "@id": "#test1_1",
             "@type": "TestInstance",
             "name": "test1_1",
-            "resource": "repos/galaxyproject/iwc/actions/workflows/workflow_test.yml",
+            "resource": "repos/iwc-workflows/gromacs-mmgbsa/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
             },
