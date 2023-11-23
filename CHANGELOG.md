@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.4] 2023-11-20
+
+- Fix author in dockstore
+- Fix changeset_revision of gmx_solvate
+
+## [0.1.3] 2022-05-25
+
+### Changed
+- Changed creator ORCID to absolute URI
+
 ## [0.1.2] 2021-12-13
 
 ### Added

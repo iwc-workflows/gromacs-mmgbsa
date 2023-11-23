@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-20T17:04:47.617205",
+            "datePublished": "2023-11-23T13:33:07.970641",
             "hasPart": [
                 {
                     "@id": "gromacs-mmgbsa.ga"
@@ -40,7 +40,7 @@
             },
             "mentions": [
                 {
-                    "@id": "#test1"
+                    "@id": "#test_main_1"
                 }
             ],
             "name": "gromacs-mmgbsa/main"
@@ -64,7 +64,7 @@
             ],
             "creator": [
                 {
-                    "@id": "#0000-0002-0621-6705"
+                    "@id": "https://orcid.org/0000-0002-0621-6705"
                 }
             ],
             "name": "gromacs-mmgbsa/main",
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/gromacs-mmgbsa",
-            "version": "0.1.2"
+            "version": "0.1.4"
         },
         {
             "@id": "#galaxy",
@@ -87,7 +87,7 @@
             "version": "v19_09"
         },
         {
-            "@id": "#0000-0002-0621-6705",
+            "@id": "https://orcid.org/0000-0002-0621-6705",
             "@type": "Person",
             "name": "Simon Bray"
         },
@@ -96,25 +96,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test1",
+            "@id": "#test_main_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "gromacs-mmgbsa-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test1_1"
+                    "@id": "#test_main_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "gromacs-mmgbsa.ga"
             },
-            "name": "test1"
+            "name": "test_main_1"
         },
         {
-            "@id": "#test1_1",
+            "@id": "#test_main_1_1",
             "@type": "TestInstance",
-            "name": "test1_1",
+            "name": "test_main_1_1",
             "resource": "repos/iwc-workflows/gromacs-mmgbsa/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.74.9"
+            "engineVersion": ">=0.75.18"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
