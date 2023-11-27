@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2023-11-23T13:33:07.970641",
+            "datePublished": "2023-11-27T10:02:38.084617",
             "hasPart": [
                 {
                     "@id": "gromacs-mmgbsa.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/gromacs-mmgbsa",
-            "version": "0.1.4"
+            "version": "0.1.5"
         },
         {
             "@id": "#galaxy",
