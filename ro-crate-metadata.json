@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2026-03-03T18:47:50.166300",
+            "datePublished": "2026-03-09T10:38:22.626771",
             "hasPart": [
                 {
                     "@id": "gromacs-mmgbsa.ga"
@@ -72,7 +72,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/gromacs-mmgbsa",
-            "version": "0.1.7"
+            "version": "0.1.8"
         },
         {
             "@id": "#galaxy",
@@ -138,7 +138,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.39"
+            "engineVersion": ">=0.75.40"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
